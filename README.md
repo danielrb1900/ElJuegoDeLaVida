@@ -6,9 +6,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Repo](https://img.shields.io/badge/Repo-danielrb1900%2FElJuegoDeLaVida-brightgreen.svg)](https://github.com/danielrb1900/ElJuegoDeLaVida)
 
-Una implementación visual y orientada a objetos del clásico **Juego de la Vida** desarrollada íntegramente en **Java**[cite: 1]. 
+Una implementación visual y orientada a objetos del clásico **Juego de la Vida** desarrollada íntegramente en **Java**. 
 
-Este proyecto nace con el propósito de explorar la simulación de autómatas celulares aplicando los principios de la Programación Orientada a Objetos (POO), el manejo de eventos y la separación de responsabilidades entre la lógica de dominio y la interfaz gráfica de usuario (GUI)[cite: 1]. La aplicación ofrece un entorno gráfico interactivo donde el usuario puede diseñar el estado inicial célula por célula, avanzar paso a paso por cada generación para analizar su evolución con precisión y limpiar el lienzo en cualquier momento[cite: 1].
+Este proyecto nace con el propósito de explorar la simulación de autómatas celulares aplicando los principios de la Programación Orientada a Objetos (POO), el manejo de eventos y la separación de responsabilidades entre la lógica de dominio y la interfaz gráfica de usuario (GUI). La aplicación ofrece un entorno gráfico interactivo donde el usuario puede diseñar el estado inicial célula por célula, avanzar paso a paso por cada generación para analizar su evolución con precisión y limpiar el lienzo en cualquier momento.
 
 ---
 
@@ -36,17 +36,17 @@ En cada paso de tiempo (o *generación*), ocurren las siguientes transiciones de
 
 ## ✨ Características Principales (Features)
 
-- **Interfaz Gráfica Interactiva (GUI):** Ventana principal desarrollada con Java Swing (`VentanaPrincipal`) que permite visualizar la cuadrícula y el estado de las colonias de células de manera intuitiva[cite: 1].
-- **Diseño Personalizado (Píxel a Píxel):** Mediante el controlador `BotonPixelListener`, el usuario puede hacer clic directamente sobre cualquier celda del tablero para alternar su estado (viva/muerta) y dibujar patrones iniciales personalizados[cite: 1].
-- **Avance Paso a Paso (Manual):** Control total sobre el flujo temporal de la simulación; cada pulsación en el botón *Play* (`BotonPlayListener`) calcula y renderiza exactamente la siguiente generación[cite: 1].
-- **Reinicio Rápido:** Incluye un botón de limpieza (`BotonLimpiarListener`) para vaciar el tablero al instante y probar nuevas configuraciones desde cero[cite: 1].
-- **Arquitectura Modular:** Código estructurado en paquetes independientes para la lógica de negocio (`clases`), la vista y eventos (`interfaz`), y el punto de entrada (`main`)[cite: 1].
+- **Interfaz Gráfica Interactiva (GUI):** Ventana principal desarrollada con Java Swing (`VentanaPrincipal`) que permite visualizar la cuadrícula y el estado de las colonias de células de manera intuitiva.
+- **Diseño Personalizado (Píxel a Píxel):** Mediante el controlador `BotonPixelListener`, el usuario puede hacer clic directamente sobre cualquier celda del tablero para alternar su estado (viva/muerta) y dibujar patrones iniciales personalizados.
+- **Avance Paso a Paso (Manual):** Control total sobre el flujo temporal de la simulación; cada pulsación en el botón *Play* (`BotonPlayListener`) calcula y renderiza exactamente la siguiente generación.
+- **Reinicio Rápido:** Incluye un botón de limpieza (`BotonLimpiarListener`) para vaciar el tablero al instante y probar nuevas configuraciones desde cero.
+- **Arquitectura Modular:** Código estructurado en paquetes independientes para la lógica de negocio (`clases`), la vista y eventos (`interfaz`), y el punto de entrada (`main`).
 
 ---
 
 ## 📂 Estructura del Proyecto
 
-El código fuente está organizado siguiendo una arquitectura modular dividida en tres paquetes principales dentro del directorio `src/`[cite: 1]:
+El código fuente está organizado siguiendo una arquitectura modular dividida en tres paquetes principales dentro del directorio `src/`:
 
 ```text
 📁 ElJuegoDeLaVida
@@ -73,7 +73,7 @@ El código fuente está organizado siguiendo una arquitectura modular dividida e
 
 ## 🗺️ Mejoras Futuras (Roadmap)
 
-- [ ] **Reproducción automática mediante Hilos (`Threads`):** Implementar programación concurrente para ejecutar un bucle continuo en segundo plano, permitiendo que las generaciones avancen de forma automática sin necesidad de pulsar el botón *Play* en cada turno[cite: 1].
+- [ ] **Reproducción automática mediante Hilos (`Threads`):** Implementar programación concurrente para ejecutar un bucle continuo en segundo plano, permitiendo que las generaciones avancen de forma automática sin necesidad de pulsar el botón *Play* en cada turno.
 
 ---
 
