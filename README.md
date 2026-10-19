@@ -1,6 +1,6 @@
 # El Juego de la Vida
 
-[![Java Version](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/)
+[![Java Version](https://img.shields.io/badge/Java-25-blue.svg)](https://www.oracle.com/java/)
 [![GUI: Java Swing](https://img.shields.io/badge/GUI-Java%20Swing-orange.svg)](https://docs.oracle.com/javase/tutorial/uiswing/)
 [![IDE: VS Code](https://img.shields.io/badge/IDE-VS%20Code-007ACC.svg)](https://code.visualstudio.com/)
 [![GitHub Repo](https://img.shields.io/badge/Repo-danielrb1900%2FElJuegoDeLaVida-brightgreen.svg)](https://github.com/danielrb1900/ElJuegoDeLaVida)
