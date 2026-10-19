@@ -3,7 +3,6 @@
 [![Java Version](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/)
 [![GUI: Java Swing](https://img.shields.io/badge/GUI-Java%20Swing-orange.svg)](https://docs.oracle.com/javase/tutorial/uiswing/)
 [![IDE: VS Code](https://img.shields.io/badge/IDE-VS%20Code-007ACC.svg)](https://code.visualstudio.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Repo](https://img.shields.io/badge/Repo-danielrb1900%2FElJuegoDeLaVida-brightgreen.svg)](https://github.com/danielrb1900/ElJuegoDeLaVida)
 
 Una implementación visual y orientada a objetos del clásico **Juego de la Vida** desarrollada íntegramente en **Java**. 
@@ -21,7 +20,7 @@ Este proyecto nace con el propósito de explorar la simulación de autómatas ce
 
 ## 📖 Las Reglas del Juego
 
-El universo del Juego de la Vida es una cuadrícula ortogonal bidimensional de celdas cuadradas, donde cada una se encuentra en uno de dos estados posibles: **viva** o **muerta**. Cada célula interactúa con sus ocho vecinos adyacentes (horizontal, vertical y diagonalmente).
+El universo del Juego de la Vida es una cuadrícula bidimensional de celdas cuadradas, donde cada una se encuentra en uno de dos estados posibles: **viva** o **muerta**. Cada célula interactúa con sus ocho vecinos adyacentes (horizontal, vertical y diagonalmente).
 
 En cada paso de tiempo (o *generación*), ocurren las siguientes transiciones de forma simultánea, basadas estrictamente en las [reglas oficiales documentadas en Wikipedia](https://es.wikipedia.org/wiki/Juego_de_la_vida):
 
