@@ -67,6 +67,70 @@ El código fuente está organizado siguiendo una arquitectura modular dividida e
 ├── 📁 bin/                           # Archivos bytecode compilados (.class)
 └── 📄 README.md                      # Documentación del proyecto
 ```
+---
+## 🖼️ Capturas de Pantalla
+
+### Interfaz inicial
+![Interfaz inicial](docs/images/interfaz-inicial.png)
+
+### Configuración de células
+![Configuración de células](docs/images/configuracion-celulas.png)
+
+### Evolución de las generaciones
+![Evolución del juego](docs/images/evolucion-generaciones.png)
+
+---
+## ⚙️ Compilación y ejecución
+
+### Requisitos previos
+
+- JDK instalado (probado con JDK 21).
+- Git para clonar el repositorio.
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/danielrb1900/ElJuegoDeLaVida.git
+cd ElJuegoDeLaVida
+```
+
+### 2. Compilar el proyecto
+
+Desde el directorio raíz del proyecto, ejecuta:
+
+```bash
+javac -d out -sourcepath src src/main/Main.java
+```
+
+Este comando compila la clase principal y sus dependencias, almacenando los archivos `.class` en el directorio `out`.
+
+### 3. Ejecutar la aplicación
+
+Una vez compilado el proyecto, ejecuta:
+
+```bash
+java -cp out main.Main
+```
+
+La aplicación abrirá la ventana gráfica del Juego de la Vida.
+
+### Estructura generada tras la compilación
+
+```text
+out/
+├── clases/
+│   ├── Celula.class
+│   ├── Configuracion.class
+│   ├── Juego.class
+│   └── Tablero.class
+├── interfaz/
+│   ├── BotonLimpiarListener.class
+│   ├── BotonPixelListener.class
+│   ├── BotonPlayListener.class
+│   └── VentanaPrincipal.class
+└── main/
+    └── Main.class
+```
 
 ---
 
